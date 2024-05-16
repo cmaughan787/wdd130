@@ -1,0 +1,49 @@
+body {
+    margin:0;
+}
+h1 {
+    text-align: center;
+}
+
+
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+img {
+    width: 40%background-color;
+    display: block;
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+main p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+/* unvisited link */
+a:link {
+    color: rgb(255, 255, 255);
+  }
+  /* visited link */
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+  /* mouse over link */
+  a:hover {
+    background-color: white;
+    color: steelblue;
+  }
+  /* selected link */
+  a:active {
+    color: blue;
+  }

@@ -1,0 +1,38 @@
+body{
+    background-color: #5da1d7;
+    text-align: center;
+}
+
+a{
+    font-size: xx-large;
+}
+
+a:hover{
+    color: black;
+}
+
+.white{
+    color: white;
+}
+#para{
+    font-size: xx-large;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+img{
+    width: 25%;
+    margin-top: 20px;
+}
+
+ol{
+    width: 35%;
+    margin: auto;
+    text-align: left;
+}
+
+.closing{
+    margin-top: 0;
+    margin-bottom: 0;
+}
