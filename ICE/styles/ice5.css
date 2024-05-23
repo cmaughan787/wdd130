@@ -6,9 +6,12 @@ body{
     width: 20%;
     border-radius: 50%;
     border: 7px solid black;
-    margin: 40px
-    
+    margin: 40px;    
 }
 div{
     text-align: center;
+}
+
+#head{
+    width: 100%;
 }
