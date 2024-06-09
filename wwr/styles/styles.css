@@ -29,13 +29,7 @@ body{
     margin-top: 50px;
     border-radius: 5 px;
 }
-.msg{
-    background-color: #6f7364;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-}
+
 .msg p{
     font-size: .8em;
     background-color: #997C63;
@@ -45,6 +39,7 @@ body{
 header{
     display: grid;
     grid-template-columns: 150px auto;
+    justify-items: start;
     font-family: Helvetica, sans-serif, Arial;
     z-index: 1;
     background-color: #5E9BA8;
@@ -56,7 +51,7 @@ nav {
 }
 
 #hero{
-    display: gird;
+    display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     width: 100%;
     margin-top: -100px;
@@ -105,9 +100,9 @@ nav a{
     padding: 35px;
 }
 
-#home-grid{
+.home-grid{
     display: grid;
-    grid-template-columns: (10, 1fr);
+    grid-template-columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr);
 }
 
 #hero-msg h1, .button-box, main section{
@@ -196,3 +191,14 @@ footer .social img{
     grid-row: 2/3;
 }
 
+#background{
+    grid-column: 1-11;
+    grid-row: 4-9;
+}
+.msg{
+    background-color: #6f7364;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
