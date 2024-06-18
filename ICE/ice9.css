@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+
+
+.page{
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+}
+.text{
+    text-align: center;
+    padding: 10%;
+}
+
+header{
+    text-align: center;
+    color: #3F5B8B;
+}
+
+h2{
+    text-align: center;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px, 75px;
+    background-color: #3F5B8B;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
