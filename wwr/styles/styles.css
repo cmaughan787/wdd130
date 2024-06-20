@@ -206,6 +206,19 @@ footer .social img{
 .card{
     width: 300px;
 }
-.smallcard{
-    width: 200px;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px; /* A little space for clarity */
+}
+
+.smallcard {
+    background-color: #6f7364; 
+    padding: 5px; 
+    text-align: center; 
+}
+
+.smallimg img {
+    width: 100%;
+    height: auto; 
 }
